@@ -1,0 +1,25 @@
+{
+  "name": "criando-site-responsivo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rfaeltech/criando-um-site-responsivo.git"
+  },
+  "author": "Rafael <rfael.epr@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rfaeltech/criando-um-site-responsivo/issues"
+  },
+  "homepage": "https://github.com/rfaeltech/criando-um-site-responsivo#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-ruby-sass": "^3.0.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-watch": "^5.0.1"
+  }
+}
