@@ -4,7 +4,7 @@
 	<title>Portfólio</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="css/geral.css">
-	<link rel="stylesheet" href="css/home.css">
+	<link rel="stylesheet" href="css/contato.css">
 	<link rel="stylesheet" href="css/plugins.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 </head>
@@ -48,42 +48,59 @@
 
   
 	<main>
-		<section class="sobre">
+
+		<section class="contato">
 			<div class="container">
-				<div class="itens">
-					<div class="foto">
-						<img src="images/foto-main.jpg" alt="Foto Tag" width="150px" height="150px">
+				<form>
+					
+					<div class="cols">
+						<div class="col">
+							<div class="form-group">
+								<input class="form-control" type="text" placeholder="Nome" required>
+							</div>
+						</div>
+
+						<div class="col">
+							<div class="form-group">
+								<input class="form-control" type="email" placeholder="E-mail" required>
+							</div>
+						</div>
+						
+						<div class="col">
+							<div class="form-group">
+								<input  class="form-control" type="number" placeholder="Telefone" required>
+							</div>
+						</div>
+
+						<div class="col">
+							<div class="form-group">
+								<select class="form-control">
+									<option>Selecione uma opção</option>
+									<option>Orçamento</option>
+									<option>Sugestão</option>
+									<option>Outras Informações</option>
+								</select>
+							</div>
+						</div>
+
+						<div class="col">
+							<div class="form-group">
+								<textarea class="form-control" placeholder="Preencha suas duvidas"></textarea>
+							</div>
+						</div>
 					</div>
 
-					<div class="icone-lapis">
-						<i class="fas fa-atom"></i>
+					<div class="form-group">
+						<button class="botao medio">Enviar Contato</button>
 					</div>
 
-					<div class="icone-codigo">
-						<i class="fa fa-code"></i>
-					</div>
-
-					<div class="icone-coracao">
-						<i class="fab fa-connectdevelop"></i>
-					</div>
-
-					<div class="icone-share">
-						<i class="fa fa-share-alt"></i>
-					</div>
-
-				</div>
+				</form>
 				
-				<div class="texto">
-
-					<p><strong>Lorem ipsum dolor sit amet</strong> consectetur adipisicing elit.
-					Aut in laborum, quos corrupti omnis ipsum reiciendis? Aspernatur,
-					sequi eius! Nobis veniam eius autem dolores, doloribus deserunt est ez ea voluptatem.</p>
-
-					<a href="sobre.html" class="botao medio"><i class="fa fa-eye"></i>Continue Lendo</a>
-				</div>
 
 			</div>
+
 		</section>
+
 	</main>
 
 
