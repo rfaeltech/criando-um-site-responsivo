@@ -7,114 +7,145 @@
 	<link rel="stylesheet" href="css/contato.css">
 	<link rel="stylesheet" href="css/plugins.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="icon" href="images/logo.gif">
 </head>
 
 <body>
-	<header>
-		<div class="container">
-			<div class="logo">
-				<a href="index.html">
-				<img src="images/logo.gif" alt="Logo Topo Tag">
-				</a>
+
+	<nav class="menu-responsivo">
+		<ul>
+			<li><a href="index.html">Início</a></li>
+			<li><a href="sobre.html">Sobre</a></li>
+			<li><a href="portfolio.html">Portfólio</a></li>
+			<li><a href="contato.html">Contato</a></li>
+		</ul>
+	</nav>
+
+	<div class="layout">
+		<header>
+			<div class="container">
+				<div class="logo">
+					<a href="index.html">
+					<img src="images/logo.gif" alt="Logo Topo Tag">
+					</a>
+				</div>
+				
+				<div class="links">
+					<nav>
+						<ul>
+							<li><a href="index.html">Início</a></li>
+							<li><a href="sobre.html">Sobre</a></li>
+							<li><a href="portfolio.html">Portfólio</a></li>
+							<li><a href="contato.html">Contato</a></li>
+						</ul>
+					</nav>
+
+					<a class="toggle" href="javascript:;">
+						<span></span>
+						<span></span>
+						<span></span>
+					</a>
+
+					<ul class="social">
+						<li>
+							<a href="#"><i class="fab fa-facebook-f"></i></a>
+						</li>
+
+						<li>
+							<a href="#"><i class="fab fa-github-alt"></i></a>
+						</li>
+					</ul>
+				</div>
+
+				<h1><strong>Rafael Fernandes</strong></h1>
+
+				<p>Code // Share // Reboot</p>
 			</div>
 			
-			<div class="links">
-				<nav>
-					<ul>
-						<li><a href="index.html">Início</a></li>
-						<li><a href="sobre.html">Sobre</a></li>
-						<li><a href="portfolio.html">Portfólio</a></li>
-						<li><a href="contato.html">Contato</a></li>
-					</ul>
-				</nav>
+		</header>
 
-				<ul class="social">
-					<li>
-						<a href="#"><i class="fab fa-facebook-f"></i></a>
-					</li>
+	  
+		<main>
 
-					<li>
-						<a href="#"><i class="fab fa-github-alt"></i></a>
-					</li>
-				</ul>
-			</div>
-
-			<h1><strong>Rafael Fernandes</strong></h1>
-
-			<p>Code // Share // Reboot</p>
-		</div>
-		
-	</header>
-
-  
-	<main>
-
-		<section class="contato">
-			<div class="container">
-				<form>
-					
-					<div class="cols">
-						<div class="col">
-							<div class="form-group">
-								<input class="form-control" type="text" placeholder="Nome" required>
-							</div>
-						</div>
-
-						<div class="col">
-							<div class="form-group">
-								<input class="form-control" type="email" placeholder="E-mail" required>
-							</div>
-						</div>
+			<section class="contato">
+				<div class="container">
+					<form>
 						
-						<div class="col">
-							<div class="form-group">
-								<input  class="form-control" type="number" placeholder="Telefone" required>
+						<div class="cols">
+							<div class="col">
+								<div class="form-group">
+									<input class="form-control" type="text" placeholder="Nome" required>
+								</div>
+							</div>
+
+							<div class="col">
+								<div class="form-group">
+									<input class="form-control" type="email" placeholder="E-mail" required>
+								</div>
+							</div>
+							
+							<div class="col">
+								<div class="form-group">
+									<input  class="form-control" type="number" placeholder="Telefone" required>
+								</div>
+							</div>
+
+							<div class="col">
+								<div class="form-group">
+									<select class="form-control">
+										<option>Selecione uma opção</option>
+										<option>Orçamento</option>
+										<option>Sugestão</option>
+										<option>Outras Informações</option>
+									</select>
+								</div>
+							</div>
+
+							<div class="col">
+								<div class="form-group">
+									<textarea class="form-control" placeholder="Preencha suas duvidas"></textarea>
+								</div>
 							</div>
 						</div>
 
-						<div class="col">
-							<div class="form-group">
-								<select class="form-control">
-									<option>Selecione uma opção</option>
-									<option>Orçamento</option>
-									<option>Sugestão</option>
-									<option>Outras Informações</option>
-								</select>
-							</div>
+						<div class="form-group">
+							<button class="botao medio">Enviar Contato</button>
 						</div>
 
-						<div class="col">
-							<div class="form-group">
-								<textarea class="form-control" placeholder="Preencha suas duvidas"></textarea>
-							</div>
-						</div>
-					</div>
+					</form>
+					
 
-					<div class="form-group">
-						<button class="botao medio">Enviar Contato</button>
-					</div>
+				</div>
 
-				</form>
-				
+			</section>
 
-			</div>
-
-		</section>
-
-	</main>
+		</main>
 
 
-	
-	<footer>
-		<div class="logo-rodape">
-			<a href="index.html">
-				<img src="images/logo.gif" alt="Logo TAG Rodapé">
-			</a>
-
-			<p>2018 Todos os Direitos Reservados</p>
-		</div>
 		
-	</footer>
+		<footer>
+			<div class="logo-rodape">
+				<a href="index.html">
+					<img src="images/logo.gif" alt="Logo TAG Rodapé">
+				</a>
+
+				<p>2018 Todos os Direitos Reservados</p>
+			</div>
+			
+		</footer>
+	</div>
+
+	<script src="bower_components/jquery/dist/jquery.min.js"></script>
+	<script>
+		$(function(){
+			
+			$('.toggle').click(function(){
+				$('.layout').toggleClass('ativo');
+				$('.menu-responsivo').toggleClass('ativo');
+				$(this).toggleClass('ativo');
+			});
+		});
+	</script>
 </body>
 
 </html>

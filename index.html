@@ -1,103 +1,135 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Portfólio</title>
+	<title>AtomDev</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="css/geral.css">
 	<link rel="stylesheet" href="css/home.css">
 	<link rel="stylesheet" href="css/plugins.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="icon" href="images/logo.gif">
 </head>
 
 <body>
-	<header>
-		<div class="container">
-			<div class="logo">
-				<a href="index.html">
-				<img src="images/logo.gif" alt="Logo Topo Tag">
-				</a>
-			</div>
-			
-			<div class="links">
-				<nav>
-					<ul>
-						<li><a href="index.html">Início</a></li>
-						<li><a href="sobre.html">Sobre</a></li>
-						<li><a href="portfolio.html">Portfólio</a></li>
-						<li><a href="contato.html">Contato</a></li>
-					</ul>
-				</nav>
+	
+	<nav class="menu-responsivo">
+		<ul>
+			<li><a href="index.html">Início</a></li>
+			<li><a href="sobre.html">Sobre</a></li>
+			<li><a href="portfolio.html">Portfólio</a></li>
+			<li><a href="contato.html">Contato</a></li>
+		</ul>
+	</nav>
 
-				<ul class="social">
-					<li>
-						<a href="#"><i class="fab fa-facebook-f"></i></a>
-					</li>
 
-					<li>
-						<a href="#"><i class="fab fa-github-alt"></i></a>
-					</li>
-				</ul>
-			</div>
-
-			<h1><strong>Rafael Fernandes</strong></h1>
-
-			<p>Code // Share // Reboot</p>
-		</div>
-		
-	</header>
-
-  
-	<main>
-		<section class="sobre">
+	<div class="layout">
+		<header>
 			<div class="container">
-				<div class="itens">
-					<div class="foto">
-						<img src="images/foto-main.jpg" alt="Foto Tag" width="150px" height="150px">
-					</div>
-
-					<div class="icone-lapis">
-						<i class="fas fa-atom"></i>
-					</div>
-
-					<div class="icone-codigo">
-						<i class="fa fa-code"></i>
-					</div>
-
-					<div class="icone-coracao">
-						<i class="fab fa-connectdevelop"></i>
-					</div>
-
-					<div class="icone-share">
-						<i class="fa fa-share-alt"></i>
-					</div>
-
+				<div class="logo">
+					<a href="index.html">
+					<img src="images/logo.gif" alt="Logo Topo Tag">
+					</a>
 				</div>
 				
-				<div class="texto">
+				<div class="links">
+					<nav>
+						<ul>
+							<li><a href="index.html">Início</a></li>
+							<li><a href="sobre.html">Sobre</a></li>
+							<li><a href="portfolio.html">Portfólio</a></li>
+							<li><a href="contato.html">Contato</a></li>
+						</ul>
+					</nav>
 
-					<p><strong>Lorem ipsum dolor sit amet</strong> consectetur adipisicing elit.
-					Aut in laborum, quos corrupti omnis ipsum reiciendis? Aspernatur,
-					sequi eius! Nobis veniam eius autem dolores, doloribus deserunt est ez ea voluptatem.</p>
+					<a class="toggle" href="javascript:;">
+						<span></span>
+						<span></span>
+						<span></span>
+					</a>
 
-					<a href="sobre.html" class="botao medio"><i class="fa fa-eye"></i>Continue Lendo</a>
+					<ul class="social">
+						<li>
+							<a href="#"><i class="fab fa-facebook-f"></i></a>
+						</li>
+
+						<li>
+							<a href="#"><i class="fab fa-github-alt"></i></a>
+						</li>
+					</ul>
 				</div>
 
+				<h1><strong>Rafael Fernandes</strong></h1>
+
+				<p>Code // Share // Reboot</p>
 			</div>
-		</section>
-	</main>
+			
+		</header>
+
+	  
+		<main>
+			<section class="sobre">
+				<div class="container">
+					<div class="itens">
+						<div class="foto">
+							<img src="images/foto-main.jpg" alt="Foto Tag" width="150px" height="150px">
+						</div>
+
+						<div class="icone-lapis">
+							<i class="fas fa-atom"></i>
+						</div>
+
+						<div class="icone-codigo">
+							<i class="fa fa-code"></i>
+						</div>
+
+						<div class="icone-coracao">
+							<i class="fab fa-connectdevelop"></i>
+						</div>
+
+						<div class="icone-share">
+							<i class="fa fa-share-alt"></i>
+						</div>
+
+					</div>
+					
+					<div class="texto">
+
+						<p><strong>Lorem ipsum dolor sit amet</strong> consectetur adipisicing elit.
+						Aut in laborum, quos corrupti omnis ipsum reiciendis? Aspernatur,
+						sequi eius! Nobis veniam eius autem dolores, doloribus deserunt est ez ea voluptatem.</p>
+
+						<a href="sobre.html" class="botao medio"><i class="fa fa-eye"></i>Continue Lendo</a>
+					</div>
+
+				</div>
+			</section>
+		</main>
 
 
-	
-	<footer>
-		<div class="logo-rodape">
-			<a href="index.html">
-				<img src="images/logo.gif" alt="Logo TAG Rodapé">
-			</a>
-
-			<p>2018 Todos os Direitos Reservados</p>
-		</div>
 		
-	</footer>
+		<footer>
+			<div class="logo-rodape">
+				<a href="index.html">
+					<img src="images/logo.gif" alt="Logo TAG Rodapé">
+				</a>
+
+				<p>2018 Todos os Direitos Reservados</p>
+			</div>
+			
+		</footer>
+	</div>
+
+	<script src="bower_components/jquery/dist/jquery.min.js"></script>
+	<script>
+		$(function(){
+			
+			$('.toggle').click(function(){
+				$('.layout').toggleClass('ativo');
+				$('.menu-responsivo').toggleClass('ativo');
+				$(this).toggleClass('ativo');
+			});
+		});
+	</script>
 </body>
 
 </html>
